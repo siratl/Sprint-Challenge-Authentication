@@ -26,7 +26,7 @@ class App extends Component {
               <NavLink to="/login">Login</NavLink>
             )}
             &nbsp;|&nbsp;
-            <NavLink to="/users">Jokes</NavLink>
+            <NavLink to="/jokes">Jokes</NavLink>
             {localStorage.getItem('jwt') ? null : (
               <>
                 &nbsp;|&nbsp;<NavLink to="/register">Register</NavLink>

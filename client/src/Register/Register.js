@@ -7,7 +7,6 @@ class Register extends Component {
   state = {
     username: '',
     passdowd: '',
-    department: '',
   };
 
   handleChange = ev => {
@@ -57,21 +56,6 @@ class Register extends Component {
                 name="password"
                 id="Password"
                 placeholder="password"
-              />
-            </Col>
-          </FormGroup>
-          <FormGroup row>
-            <Label for="password" sm={2}>
-              Password
-            </Label>
-            <Col sm={10}>
-              <Input
-                type="text"
-                value={this.state.department}
-                onChange={this.handleChange}
-                name="department"
-                id="department"
-                placeholder="department"
               />
             </Col>
           </FormGroup>

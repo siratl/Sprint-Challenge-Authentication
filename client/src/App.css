@@ -10,9 +10,10 @@ body {
 .loginPage {
   margin: auto auto;
   padding: 20px 40px;
-  border: 1px solid grey;
   border-radius: 5px;
   width: 500px;
+  background-color: rgb(94, 94, 94);
+  box-shadow:  1px 1px 1px black;
 }
 
 h2 {
@@ -30,6 +31,21 @@ Label {
   color: white;
 }
 
+.loginPage Button {
+  box-shadow:  1px 1px 2px black;
+}
+
+.registerPage Button {
+  box-shadow:  1px 1px 2px black;
+}
+
+.loginPage Button:hover {
+  box-shadow:  2px 2px 5px black;
+}
+
+.registerPage Button:hover {
+  box-shadow:  2px 2px 5px black;
+}
 
 .jokeList {
   margin: auto auto;
@@ -56,4 +72,6 @@ Label {
   border: 1px solid grey;
   border-radius: 5px;
   width: 500px;
+  background-color: rgb(94, 94, 94);
+  box-shadow:  1px 1px 1px black;
 }
