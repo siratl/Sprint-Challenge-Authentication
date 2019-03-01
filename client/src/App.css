@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(61, 15, 61);
+  
+}
+
+.loginPage {
+  margin: auto auto;
+  padding: 20px 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 500px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+li {
+  color: white;
+  margin: 10px 0;
+}
+
+Label {
+  color: white;
+}
+
+
+.jokeList {
+  margin: auto auto;
+  box-shadow:  1px 1px 1px black;
+  border-radius: 5px;
+  padding: 10px 40px;
+  width: 700px;
+  background-color: rgb(39, 39, 39);
+  margin-bottom: 60px;
+}
+
+.navBar {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  background-color: rgb(22, 22, 32);
+
+}
+
+.registerPage {
+  margin: auto auto;
+  padding: 20px 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 500px;
+}
